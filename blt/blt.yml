@@ -15,7 +15,8 @@ project:
 # Configuration settings for new git repository.
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+    cloud: 'infobeansbltdemotwo@svn-6234.devcloud.hosting.acquia.com:infobeansbltdemotwo.git'
 deploy:
   # When manually deploying a tag, also tag the source repository.
   tag_source: true
